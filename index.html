@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Simple Music Player</title>
+  <meta name="description" content="A simple music player">
+  <meta name="author" content="Eric Chan">
+
+  <!-- icon -->
+  <!-- <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="music-player">
+    <h1 class="music-name">song one</h1>
+    <p class="artist-name">artist</p>
+
+    <div class="disk"></div>
+
+    <div class="song-slider">
+      <input type="range" class="seek-bar" value="0" />
+      <span class="current-time">00:00</span>
+      <span class="song-duration">00:00</span>
+    </div>
+
+    <div class="controls">
+      <button type="button" class="side-button backward-button">
+        <img src="images/pre.png" alt="">
+      </button>
+      <button type="button" class="play-button">
+        <span></span>
+        <span></span>
+      </button>
+      <button type="button" class="side-button forward-button">
+        <img src="images/nxt.png" alt="">
+      </button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
