@@ -87,8 +87,8 @@ body {
   -webkit-appearance: none;
   width: 1px;
   height: 20px;
-  background: black;
-  box-shadow: -400px 0 00 400px #d5eebb;
+  background: #000;
+  box-shadow: -400px 0 0 400px #d5eebb;
 }
 
 .current-time,
@@ -97,8 +97,7 @@ body {
 }
 
 .song-duration {
-  position: absolute;
-  right: 0;
+  float: right;
 }
 
 .controls {
